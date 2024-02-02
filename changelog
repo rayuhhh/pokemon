@@ -1,0 +1,78 @@
+9/3/22 2:43pm : started outlining how to begin assignment 1.01
+9/4/22 10:00am : pokemap struct, boulder outline
+9/4/22 12:00pm : terrain seeds
+9/4/22 rest of the day: figuring out growth of seeds
+9/5/22 9:50am : path made; buildings built, finish growth
+9/7/22 11:25am : re edit pokemart placing after reading it needs to be
+		next to a path
+9/7/22 11:25am : cleaned up some test code I used
+9/9/22 11:00am : started outline for movement in world
+9/11/22 9:00pm : probability of buildings generated (both at same time)
+9/12/22 10:00am: movement input is handled, exception handling not quite resolved
+9/12/22 1:00pm : teleport works
+9/12/22 4:00pm : map saves to world array of maps
+9/12/22 8:00pm : stuck trying to get to work past second movement
+		will go 1x n, back to 0,0;1x s, back to mid, 1x e, etc
+		but once movement past that, erases previous new maps
+		other than start point.
+		
+9/13/22 1:00am : cleaned up all the random extra mess I made in 
+		figuring approach. problem still not alleviated
+9/13/22 8:00am : reading through code again trying to figure out
+		trying to read through gdb things online, don't 		really know how to use, no info from instructor. will 			consult k&r later maybe if it has any info.
+9/13/22 4:30pm :TOC in k&r doesn't list debugging
+9/17/22 12:00pm started outliing how to begin assignment
+9/17/22 3:00pm : took 1.02 solutions to build off
+9/18/22 1:00 pm : integrated professor's heap to implement dijkstra's
+9/18/22 2:00pm : mimicked professor's dijkstras implementation
+9/19/22: 5:00pm : got it to work, prints hiker and rival distance maps.
+
+
+10/1/22 2:00pm : started work, took solution 1.03 to build off
+10/1/22 5:00pm : finish reading through code solution and reading 1.04 problem statement
+10/1/22 5:00pm : took pc init to start init for npc trainers
+10/1/22 10:00pm : decided direction for calls in main, work on initializing npcs and pc chars
+10/2/22 2:00am: spawn pc and npc and took in --numtrainers as input and some input handling
+10/3/22 1:00pm : figuring out how to implement queue and movement
+
+10/15/22 11:00am : initialize terminal
+10/15/22 1:30pm : started taking print_map and making show() to reprint map using curses
+10/16/22 10:05pm: prints output, shows beginning of trainer toggle
+10/17/22 12:19am: found snprintf to help with printing trainer list
+10/17/22 2:42pm: pokebattle just shows display msg. done with pokebattle need 
+to do building enter
+
+10/23/22 Allday, start at 10am, end~9pm: port to cpp
+10/24/2210:00am - 2pm: finish movement between maps and window for textbox for 'fly'
+10/25/22 10am : cannot seem to get fly to work. If you look at how new_map is implemented in 1.02
+ for new coord to fly to, my code in io_fly provides the same material. and accounts for pc.
+ 
+ 10/31/22 11pm: most of the work tonight
+ 
+ 11/2/22 11pm: finishing up path input couldn't finish the rest of the parsing will work on it into night
+ 
+ 11/3/22 2am: finished
+ 11/4/22 12:30pm: start on hw
+ 11/6/22 4:32pm: manually generate iv, method_id is for how pkm learn moves, learned id =1 is learned by leveling
+ 
+ 11/6/22 5:35om : stuck on move generation and formulating, checking btwn this week's solutions and last week's solution
+ 
+ 11/7/22 9:30am : what is levelup_moves? 
+ 11/8/22 10:02am : try messing around with levelup moves to hold data for moves. when parsing
+ 11/8/22 1:30pm : stuck on seg fault.
+ 11/8/22 2:02pm : it was the pokemon's moves under parse. it gets increased ti cimpare with moves database
+ 
+ 11/8/22 2:15 floating point error. i think I fixed it?
+ 
+ 11/13/22 10:25am : start on 1.09 pokebattle
+ 11/13/22 3:23pm : 'B' for pokebag has count of pots,balls, revives in pc class/struct
+ 11/17/22 8:00pm : pots and vives work
+ 11/18/22 7:24am : npc cycles thru all of his pokemon till they're all dead
+ 11/28/22 2:23pm : copied trainer combat to pokemon encounter - implemented pokeball to auto catch
+  			til 6 pokemon attained.
+ 11/28/22 3:31 pm : everything done.
+ 
+ 
+ 11/30/22 7pm: everythng done
+ 
+ 

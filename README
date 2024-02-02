@@ -1,0 +1,15 @@
+README
+Todo:
+currency
+start with level 5 pokemon.
+catch rate implemented.
+
+run: ./poke327
+
+
+Using gen 1 poke cap chance.
+certain values upon throw will yield different catch outputs
+
+pokecenter can swap and has PC access for overflow of pokemon caught
+
+*note at pokemon select screen '6' is a code to auto spawn 7 pokemon to check pokecenter switching from overflow of caught pokemon
